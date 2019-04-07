@@ -9,6 +9,17 @@ body{
     line-height: 1.4;
 }
 
+h2{
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #399bd1;
+}
+
+h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
 /*Navigation bar*/
 
 .navbar {
@@ -20,7 +31,60 @@ body{
 .navbar-default .navbar-nav > .active > a:hover {
   background-color: inherit;
   color: #399bd1;
-
+}
 /*Jumbotron*/
 
-.jumbotron .jumbotron
+.jumbotron {
+    height: 44rem;
+    padding-top: 10rem;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.background-bike{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-8/Jumpstart/resources/images/jumbotron-bike.jpg");
+}
+
+.jumbotron h1{
+    font-family: "Monoton";
+    font-size: 7.1rem;
+    padding-top: 11.85rem;
+}
+
+.jumbotron p{
+    max-width: 51.3rem;
+    margin: auto;
+}
+
+.btn-primary{
+    width: 11.4rem;
+    height: 3.6rem;
+    background-color: #399bd1;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    margin-top: 2.8rem;
+}
+
+.btn-primary:hover{
+    box-shadow: 0 0 12px rgba(0,0,0,0.9);
+}
+
+.btn-primary:active{
+    box-shadow: 0 0 0px rgba(0,0,0,0.5);
+}
+
+/*Featured project*/
+.featured-project .image-container{
+    margin-top: 20px;
+}
+
+.blue{
+    color: #399bd1;
+}
