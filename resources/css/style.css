@@ -20,6 +20,18 @@ h3{
     font-weight: bold;
 }
 
+.container{
+    margin-left: 24px;
+}
+
+.container-fluid{
+    margin-left: 0px;
+}
+
+.row{
+    margin-left: -15px;
+}
+
 /*Navigation bar*/
 
 .navbar {
@@ -96,4 +108,46 @@ h3{
 .project .image-container{
     height: 13.5rem;
     overflow: hidden;
+}
+
+.projects{
+    margin-left: -15px;
+}
+
+/*footer*/
+
+footer{
+    background-color: #f3f3f3;
+    width: 100%;
+    height: auto;
+    padding-top: 5.2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 5.85rem;
+}
+
+footer p{
+    max-width: 42rem;
+    margin: auto;
+}
+
+strong{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.btn2{
+    width: 11.4rem;
+    height: 3.6rem;
+    background-color: #399bd1;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    margin-top: 2.8rem;
+    margin-bottom: 5.2rem;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
