@@ -21,7 +21,7 @@ h3{
 }
 
 .container{
-    margin-left: 0px;
+    margin-left: 24px;
 }
 
 .container-fluid{
@@ -29,9 +29,12 @@ h3{
     margin-right: 24px;
 }
 
-.row{
-    margin-left: -10px;
-    margin-right: -15px;
+img{
+    width: 100%;
+}
+
+.image-container{
+    overflow: hidden;
 }
 
 /*Navigation bar*/
@@ -125,6 +128,7 @@ h3{
 
 .featured-project .image-container{
     margin-top: 20px;
+    height: 19rem;
 }
 
 .blue{
